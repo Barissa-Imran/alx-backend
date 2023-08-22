@@ -11,6 +11,7 @@ class FIFOCache(BaseCaching):
     Represents an object
     """
     def __init__(self):
+        """initialize the class"""
         super().__init__()
         self.cache_data = OrderedDict()
 
